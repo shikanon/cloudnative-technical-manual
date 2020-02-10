@@ -58,7 +58,7 @@ TOC
     - 搭建Prometheus系统
     - 监控应用程序
   - 机器学习工具集Kubeflow
-    - kubeflow核心组件
+    - [kubeflow核心组件](./papers/machine-learning-toolset-kubeflow/kubeflow核心组件.md)
     - TFJob
     - 模型部署：TF-Serving
     - 任务编排：Argo
