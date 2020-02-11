@@ -1,6 +1,11 @@
 # cloudnative-technical-manual
 
-**《云原生技术开发手册》**
+## 《云原生技术开发手册》
+
+[![GitHub license](https://img.shields.io/github/license/shikanon/cloudnative-technical-manual)](https://github.com/shikanon/cloudnative-technical-manual/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/shikanon/cloudnative-technical-manual)](https://github.com/shikanon/cloudnative-technical-manual/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/shikanon/cloudnative-technical-manual)](https://github.com/shikanon/cloudnative-technical-manual/network)
+
 
 TOC
 ---------
