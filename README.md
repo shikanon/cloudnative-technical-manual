@@ -45,10 +45,18 @@ TOC
     - 应用配置config
     - 存储资源Volume
     - Kuberntes网络及策略控制
-  - Kubernetes集群故障排查
+  - Kubernetes开放接口
+    - 容器运行时接口CRI
+    - 容器网络接口CNI
+    - 容器存储接口CSI
+  - [Kubernetes集群故障排查](./papers/kubernetes-failure-analysis/)
+    - 常见的问题排查命令
+    - Pod异常排查
+    - 网络异常排查
+    - 持久化异常排查
   - 持续集成与持续交付
     - 代码管理: gitlab
-    - CI/CD: Jenkins和git runner
+    - CI/CD: Jenkins 和 git runner
     - 镜像管理: harbor
   - 服务网格: Istio
     - 什么是服务网格
@@ -62,7 +70,7 @@ TOC
     - Prometheus架构
     - 搭建Prometheus系统
     - 监控应用程序
-  - 机器学习工具集Kubeflow
+  - [机器学习工具集Kubeflow](./papers/machine-learning-toolset-kubeflow/)
     - [kubeflow核心组件](./papers/machine-learning-toolset-kubeflow/kubeflow核心组件.md)
     - TFJob
     - 模型部署：TF-Serving
