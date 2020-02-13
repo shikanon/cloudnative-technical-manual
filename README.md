@@ -37,6 +37,7 @@ TOC
   - 云原生的基石：容器与虚拟化技术
   - 容器编排：Kubernetes
     - Kubernetes架构
+    - Kubernetes安装
     - Kubernetes资源对象
     - Pod和容器设计模式
     - 无状态应用编排Deployment
@@ -75,7 +76,7 @@ TOC
     - TFJob
     - 模型部署：TF-Serving
     - 任务编排：Argo
-    - 搭建kubeflow系统
+    - [搭建kubeflow系统](./papers/machine-learning-toolset-kubeflow/搭建kubeflow系统.md)
 - 实战篇
   - 向云原生迁移的第一个项目
     - 事前准备工作
