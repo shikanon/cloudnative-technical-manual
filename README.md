@@ -35,6 +35,9 @@ TOC
   - 运维规范及注意事项
 - 进阶篇
   - 云原生的基石：容器与虚拟化技术
+    - 虚拟化技术的发展历史
+    - 容器基本命令
+    - 容器引擎的实现及生命周期管理
   - 容器编排：Kubernetes
     - Kubernetes架构
     - Kubernetes安装
@@ -51,7 +54,7 @@ TOC
     - 容器网络接口CNI
     - 容器存储接口CSI
   - [Kubernetes集群故障排查](./papers/kubernetes-failure-analysis/)
-    - 常见的问题排查命令
+    - [常见的问题排查方法](./papers/kubernetes-failure-analysis/常见的问题排查命令.md)
     - Pod异常排查
     - 网络异常排查
     - 持久化异常排查
