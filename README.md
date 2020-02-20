@@ -23,6 +23,7 @@ TOC
     - 代码开发规范
       - 前端开发规范
       - 后端开发规范
+        - [Python编程规范](./papers/development-specification/Python编程规范.md)
       - 数据库设计规范
     - 代码管理规范
       - 代码分支管理规范
