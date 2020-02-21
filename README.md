@@ -49,8 +49,8 @@ TOC
     - 应用配置config
     - 存储资源Volume
     - Kuberntes网络及策略控制
-  - Kubernetes开放接口
-    - 容器运行时接口CRI
+  - [Kubernetes容器开放接口](./papers/container-interface-in-kubernetes)
+    - [容器运行时接口CRI](./papers/container-interface-in-kubernetes/CRI.md)
     - 容器网络接口CNI
     - 容器存储接口CSI
   - [Kubernetes集群故障排查](./papers/kubernetes-failure-analysis/)
