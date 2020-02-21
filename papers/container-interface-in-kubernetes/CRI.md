@@ -57,6 +57,7 @@ func TestVersion(t *testing.T) {
 CRI 容器运行时主要描述了三种服务的行为 Sandbox、Container、Image：
 ![](./images/kubelet-process.png)
 <center>图3. CRI容器运行时流程</center>
+
 Sandbox:
 ```
 // PodSandboxManager contains methods for operating on PodSandboxes. The methods
@@ -79,6 +80,7 @@ type PodSandboxManager interface {
 	PortForward(*runtimeapi.PortForwardRequest) (*runtimeapi.PortForwardResponse, error)
 }
 ```
+
 Container:
 ```
 // ContainerManager contains methods to manipulate containers managed by a
@@ -111,6 +113,7 @@ type ContainerManager interface {
 	ReopenContainerLog(ContainerID string) error
 }
 ```
+
 Image:
 ```
 // ImageManagerService interface should be implemented by a container image
