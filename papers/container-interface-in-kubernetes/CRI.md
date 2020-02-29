@@ -297,8 +297,8 @@ rm -f critest-$VERSION-linux-amd64.tar.gz
 ```
 
 
-## 参考文贤
+## 参考文献
 
-- [Introducing Container Runtime Interface (CRI) in Kubernetes](https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/)
-- [CNCF x Alibaba 云原生技术公开课](https://edu.aliyun.com/lesson_1651_17239)
-- [cri-tools](https://github.com/kubernetes-sigs/cri-tools)
+- [Introducing Container Runtime Interface (CRI) in Kubernetes](https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/): https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/
+- [CNCF x Alibaba 云原生技术公开课](https://edu.aliyun.com/lesson_1651_17239): https://edu.aliyun.com/lesson_1651_17239
+- [cri-tools](https://github.com/kubernetes-sigs/cri-tools): https://github.com/kubernetes-sigs/cri-tools
