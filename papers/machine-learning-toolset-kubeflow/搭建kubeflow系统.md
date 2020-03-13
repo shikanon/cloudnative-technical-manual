@@ -163,3 +163,7 @@ kubectl apply -f .
 ```
 kubectl -n kubeflow get all
 ```
+
+## 参考文献
+
+- [Kubeflow官方文档](https://www.kubeflow.org/docs/started/k8s/kfctl-k8s-istio/): https://www.kubeflow.org/docs/started/k8s/kfctl-k8s-istio/

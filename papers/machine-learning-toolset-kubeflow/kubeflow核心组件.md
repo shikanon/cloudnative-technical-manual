@@ -75,7 +75,7 @@ TFJob 是将 tensorflow 的分布式架构基于 k8s 构建的一种CRD：
 - **Evaluator** 负责在训练过程中进行性能评估
 
 
-```
+```YAML
 apiVersion: kubeflow.org/v1beta2
 kind: TFJob
 metadata:
@@ -162,7 +162,7 @@ spec:
 
 挂载日志文件，创建 tensorboard 可视化服务
 
-```
+```YAML
 apiVersion: v1
 kind: Service
 metadata:
@@ -220,7 +220,7 @@ tenserflow serving 提供一个稳定的接口，供用户调用，来应用该�
 
 ![](./images/kubeflow核心组件/tf-serving.jpg)
 
-```
+```YAML
 apiVersion: v1
 kind: Service
 metadata:
@@ -315,7 +315,7 @@ pipeline主要分为八部分：
 
 ### 案例
 
-```
+```Python
 import kfp
 from kfp import dsl
 
@@ -369,3 +369,7 @@ jupyter 是最大限度的利用交互式的工作，他的主要工作体现利
 
 也可以用 jupyterhub 代替jupyter, jupyterhub提供了更多功能， jupyterhub 结构：
 ![](./images/kubeflow核心组件/jupyterhub.jpg)
+
+## 参考文献
+
+- [Kubeflow官方文档](https://www.kubeflow.org/docs/started/k8s/kfctl-k8s-istio/): https://www.kubeflow.org/docs/started/k8s/kfctl-k8s-istio/
