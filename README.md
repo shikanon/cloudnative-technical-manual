@@ -16,13 +16,13 @@ TOC
     - 基础技术名词的解释
     - 后端软件架构的发展演变
   - 云原生开发工程师的职责和基础技能
-    - 云原生的技术范畴
+    - [云原生的技术范畴](./papers/professional-skills/technology-category.md)
     - 云原生开发工程师的工作职责
     - 云原生企业落地路径
   - 软件开发规范
     - 代码开发规范
-      - 前端开发规范
-      - 后端开发规范
+      - [前端开发规范](./papers/development-spec/code-spec/前端开发规范.md)
+      - [后端开发规范](./papers/development-spec/code-spec/后端开发规范.md)
       - 数据库设计规范
     - 代码管理规范
       - 代码分支管理规范
